@@ -49,7 +49,7 @@
     * 脚本还支持将排序后的学生速率数据输出到 `analyzed_student_data1.csv`。
 * **结果示例**:
     * **学生完成课程材料速率排名图**
-        [学生完成课程材料速率图](https://github.com/Kyle-coco/Competition/blob/main/TD/PHOTO_result/HS.png)
+        ![学生完成课程材料速率图](https://github.com/Kyle-coco/Competition/blob/main/TD/PHOTO_result/HS.png)
         
 
 ### 3.3. 班级任务完成速率分析 (`homework_speed2.py`)
@@ -62,7 +62,7 @@
     * 绘制散点图展示各班级的任务完成率。
 * **结果示例**:
     * **各班级任务完成速率散点图**
-        [班级任务完成速率散点图](https://github.com/Kyle-coco/Competition/blob/main/TD/PHOTO_result/HS2.png)
+        ![班级任务完成速率散点图](https://github.com/Kyle-coco/Competition/blob/main/TD/PHOTO_result/HS2.png)
         
 
 ### 3.4. 学生参与度得分分析 (`Paticipation_test.py`)
@@ -76,7 +76,7 @@
     * 绘制学生参与度得分的直方图分布。
 * **结果示例**:
     * **学生参与度得分直方图**
-        [学生参与度得分直方图](https://github.com/Kyle-coco/Competition/blob/main/TD/PHOTO_result/PT.png)
+        ![学生参与度得分直方图](https://github.com/Kyle-coco/Competition/blob/main/TD/PHOTO_result/PT.png)
        
 
 ### 3.5. 笔记和话题数量分析 (`NoteNum.py`)
@@ -88,7 +88,7 @@
     * 绘制堆叠柱状图。
 * **结果示例**:
     * **每个班级的笔记数和话题数总和图**
-        [班级笔记与话题总数图](https://github.com/Kyle-coco/Competition/blob/main/TD/PHOTO_result/NN.png)
+        ![班级笔记与话题总数图](https://github.com/Kyle-coco/Competition/blob/main/TD/PHOTO_result/NN.png)
         **此图表明了每个班级的同学极其不喜欢做笔记和参与讨论**
         
 
