@@ -19,28 +19,28 @@ data['速率'] = data['finishedTaskNum'] / data['learnedSeconds']
 # 对学生速率进行排序
 sorted_data = data.sort_values(by='速率', ascending=False)
 
-# # 可视化学生速率
-# plt.rcParams['font.sans-serif'] = ['SimHei']#为了在图上显示中文
-# plt.rcParams["font.size"] = 20#调整字体大小
-# plt.rcParams['axes.unicode_minus'] = False#为了在图上显示负号
-#
-# # plt.figure(figsize=(10,6))
-# plt.figure(figsize=(12, 8), dpi=100)
-# plt.bar(sorted_data['userId'], sorted_data['速率'])
-# plt.xlabel('学生姓名')
-# plt.ylabel('速率')
-# plt.title('学生完成课程材料的速率')
-# plt.xticks(rotation=45)
-# plt.tight_layout()
-# plt.show()
+# 可视化学生速率
+plt.rcParams['font.sans-serif'] = ['SimHei']#为了在图上显示中文
+plt.rcParams["font.size"] = 20#调整字体大小
+plt.rcParams['axes.unicode_minus'] = False#为了在图上显示负号
 
-# 将分析结果输出到文件
-# sorted_data.to_excel('analyzed_student_data1.xlsx', index=False)
-# result = data[['userId', '速率']]
+plt.figure(figsize=(10,6))
+plt.figure(figsize=(12, 8), dpi=100)
+plt.bar(sorted_data['userId'], sorted_data['速率'])
+plt.xlabel('学生姓名')
+plt.ylabel('速率')
+plt.title('学生完成课程材料的速率')
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+
+将分析结果输出到文件
+sorted_data.to_excel('analyzed_student_data1.xlsx', index=False)
+result = data[['userId', '速率']]
 
 output_csv_path = 'analyzed_student_data1.csv'
 sorted_data.to_csv(output_csv_path, index=False)
 
 # 显示分析结果
-# print(result)
+print(result)
 
