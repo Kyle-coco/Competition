@@ -35,7 +35,7 @@
     * 统计不同学习时长区间的用户数量，并生成柱状图展示。
 * **结果示例**:
     * **学生学习时长分布图**
-        [学生学习时长分布图](https://github.com/Kyle-coco/Competition/blob/main/TD/PHOTO_result/stt.png)
+        ![学生学习时长分布图](https://github.com/Kyle-coco/Competition/blob/main/TD/PHOTO_result/stt.png)
        
 
 ### 3.2. 学生学习速率分析 (`homework_speed.py`)
